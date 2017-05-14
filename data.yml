@@ -30,6 +30,12 @@ readers:
   city: Hollywood
   street: First Street
   house: '5'
+- !ruby/object:Reader
+  name: Jim Valentine
+  email: JimCollin@gmail.com
+  city: Hollywood
+  street: First Street
+  house: '9'
 books:
 - !ruby/object:Book
   name: MARTIN EDEN
@@ -64,6 +70,9 @@ books:
 - !ruby/object:Book
   name: KUBLA KHAN
   author: Samuel Taylor Coleridge
+- !ruby/object:Book
+  name: THE PLACE
+  author: Jack London
 orders:
 - !ruby/object:Order
   reader: Jim Collin
@@ -109,6 +118,14 @@ orders:
   reader: Tom Croise
   book: BURMESE DAYS
   date: 2017-04-17 19:23:57.201958000 +03:00
+- !ruby/object:Order
+  reader: Jim Collin
+  book: MARTIN EDEN
+  date: 2017-05-14 16:24:08.519387000 +03:00
+- !ruby/object:Order
+  reader: Jim Collin 1
+  book: MARTIN EDEN
+  date: 2017-05-14 16:24:08.519416000 +03:00
 authors:
 - !ruby/object:Author
   name: Jack London
@@ -192,3 +209,6 @@ authors:
     Devon, England. A friend to poet William Wordsworth, Coleridge was a founder of the English Romantic
     Movement. His best known poems are The Rime of the Ancient Mariner and Kubla Khan, the latter of which
     was reportedly written under the influence of opium. Coleridge died in 1834.
+- !ruby/object:Author
+  name: Jack Gordon
+  biography: biography

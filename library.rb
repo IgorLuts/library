@@ -38,9 +38,7 @@ class Library
 
   def add_order(order)
     return unless order.is_a?(Order)
-    check_reader_order = readers.map(&:name).include?(order.reader)
     check_book_order = books.map(&:name).include?(order.book)
-    return 'Please, add new reader' unless check_reader_order
     return 'This book is not in the library' unless check_book_order
     orders.push(order)
   end
@@ -55,7 +53,7 @@ class Library
 
   def three_popular_book
     books_in_trand = orders.group_by(&:book)
-    books_in_trand.transform_values(&:size).sort_by { |_k, v| v }.reverse[0, 3]
+    books_in_trand.transform_values(&:size).uniq.sort_by { |_k, v| v }.reverse[0, 3]
   end
 
   def self.load_data
