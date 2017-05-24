@@ -56,7 +56,7 @@ class Library
     books_in_trand.transform_values(&:size).uniq.sort_by { |_k, v| v }.reverse[0, 3]
   end
 
-  def self.load_data
+  def load_data
     YAML.load(File.read('./data.yml'))
   end
 
