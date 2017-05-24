@@ -1,9 +1,10 @@
 # library
 
-Загрузить в библиотеку демо-данные из файла
-###### library = Library.load_data
 
-Добавить нового автора 
+Загрузить в библиотеку демо-данные из файла
+###### library = Library.new.load_data
+
+Добавить нового автора
 ###### puts library.add_author(Author.new('Jack Gordon', "biography"))
 
 Проверка того, что автор с аналогичными данными добавлен не будет

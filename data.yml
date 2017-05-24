@@ -1,0 +1,214 @@
+--- !ruby/object:Library
+readers:
+- !ruby/object:Reader
+  name: Jim Collin
+  email: JimCollin@gmail.com
+  city: Hollywood
+  street: First Street
+  house: '1'
+- !ruby/object:Reader
+  name: Russell Crowe
+  email: RussellCrowe@gmail.com
+  city: Hollywood
+  street: First Street
+  house: '2'
+- !ruby/object:Reader
+  name: Jennifer Aniston
+  email: Jenn iferAniston@gmail.com
+  city: Hollywood
+  street: First Street
+  house: '3'
+- !ruby/object:Reader
+  name: Tom Croise
+  email: TomCroise@gmail.com
+  city: Hollywood
+  street: First Street
+  house: '4'
+- !ruby/object:Reader
+  name: Nicole Kidman
+  email: NicoleKidman@gmail.com
+  city: Hollywood
+  street: First Street
+  house: '5'
+- !ruby/object:Reader
+  name: Jim Valentine
+  email: JimCollin@gmail.com
+  city: Hollywood
+  street: First Street
+  house: '9'
+books:
+- !ruby/object:Book
+  name: MARTIN EDEN
+  author: Jack London
+- !ruby/object:Book
+  name: EMMA
+  author: Jane Austen
+- !ruby/object:Book
+  name: HARRY POTTER
+  author: Joanne Rowling
+- !ruby/object:Book
+  name: EUROPE PROPHECY
+  author: William Blake
+- !ruby/object:Book
+  name: THE WIFE OF BATH
+  author: Geoffrey Chaucer
+- !ruby/object:Book
+  name: OLIVER TWIST
+  author: Charles Dickens
+- !ruby/object:Book
+  name: BIATHANATOS
+  author: John Donne
+- !ruby/object:Book
+  name: ROMOLA
+  author: George Eliot
+- !ruby/object:Book
+  name: BURMESE DAYS
+  author: George Orwell
+- !ruby/object:Book
+  name: THE BIRTHDAY PARTY
+  author: Harold Pinter
+- !ruby/object:Book
+  name: KUBLA KHAN
+  author: Samuel Taylor Coleridge
+- !ruby/object:Book
+  name: THE PLACE
+  author: Jack London
+orders:
+- !ruby/object:Order
+  reader: Jim Collin
+  book: MARTIN EDEN
+  date: 2017-04-17 19:23:57.201919000 +03:00
+- !ruby/object:Order
+  reader: Russell Crowe
+  book: EMMA
+  date: 2017-04-17 19:23:57.201927000 +03:00
+- !ruby/object:Order
+  reader: Russell Crowe
+  book: HARRY POTTER
+  date: 2017-04-17 19:23:57.201931000 +03:00
+- !ruby/object:Order
+  reader: Jennifer Aniston
+  book: EUROPE PROPHECY
+  date: 2017-04-17 19:23:57.201934000 +03:00
+- !ruby/object:Order
+  reader: Tom Croise
+  book: EMMA
+  date: 2017-04-17 19:23:57.201937000 +03:00
+- !ruby/object:Order
+  reader: Jennifer Aniston
+  book: EMMA
+  date: 2017-04-17 19:23:57.201941000 +03:00
+- !ruby/object:Order
+  reader: Russell Crowe
+  book: MARTIN EDEN
+  date: 2017-04-17 19:23:57.201944000 +03:00
+- !ruby/object:Order
+  reader: Tom Croise
+  book: MARTIN EDEN
+  date: 2017-04-17 19:23:57.201947000 +03:00
+- !ruby/object:Order
+  reader: Tom Croise
+  book: HARRY POTTER
+  date: 2017-04-17 19:23:57.201951000 +03:00
+- !ruby/object:Order
+  reader: Nicole Kidman
+  book: EMMA
+  date: 2017-04-17 19:23:57.201954000 +03:00
+- !ruby/object:Order
+  reader: Tom Croise
+  book: BURMESE DAYS
+  date: 2017-04-17 19:23:57.201958000 +03:00
+- !ruby/object:Order
+  reader: Jim Collin
+  book: MARTIN EDEN
+  date: 2017-05-14 16:24:08.519387000 +03:00
+- !ruby/object:Order
+  reader: Jim Collin 1
+  book: MARTIN EDEN
+  date: 2017-05-14 16:24:08.519416000 +03:00
+authors:
+- !ruby/object:Author
+  name: Jack London
+  biography: |-
+    Jack London was born John Griffith Chaney on January 12, 1876, in San
+    Francisco, California. After working in the Klondike, London returned home and began publishing stories.
+    His novels, including The Call of the Wild, White Fang and Martin Eden, placed London among the most
+    popular American authors of his time. London, who was also a journalist and an outspoken socialist,
+    died in 1916.
+- !ruby/object:Author
+  name: Jane Austen
+  biography: |-
+    Jane Austen was born on December 16, 1775, in Steventon, Hampshire,
+    England. While not widely known in her own time, Austen's comic novels of love among the landed gentry
+    gained popularity after 1869, and her reputation skyrocketed in the 20th century. Her novels, including
+    Pride and Prejudice and Sense and Sensibility, are considered literary classics, bridging the gap between
+    romance and realism.
+- !ruby/object:Author
+  name: Joanne Rowling
+  biography: |-
+    Born in Yate, England, on July 31, 1965, J.K. Rowling came from
+    humble economic means before writing Harry Potter and the Sorcerer's Stone, a children's fantasy novel.
+    The work was an international hit and Rowling wrote six more books in the series, which sold hundreds
+    of millions of copies and was adapted into a blockbuster film franchise. In 2012, Rowling released the
+    novel The Casual Vacancy.
+- !ruby/object:Author
+  name: William Blake
+  biography: |-
+    Born in 1757 in London, England, William Blake began writing at
+    an early age and claimed to have had his first vision, of a tree full of angels, at age 10. He
+    studied engraving and grew to love Gothic art, which he incorporated into his own unique works.
+    A misunderstood poet, artist and visionary throughout much of his life, Blake found admirers late
+    in life and has been vastly influential since his death in 1827.
+- !ruby/object:Author
+  name: Geoffrey Chaucer
+  biography: |-
+    Poet Geoffrey Chaucer was born circa 1340 in London, England.
+    In 1357 he became a public servant to Countess Elizabeth of Ulster and continued in that capacity with
+    the British court throughout his lifetime. The Canterbury Tales became his best known and most acclaimed
+    work. He died October 25, 1400 in London, England, and was the first to be buried in Westminster Abbeys
+    Poets Corner.
+- !ruby/object:Author
+  name: Charles Dickens
+  biography: |-
+    British novelist Charles Dickens was born on February 7, 1812, in
+    Portsmouth, England. Over the course of his writing career, he wrote the beloved classic novels Oliver
+    Twist, A Christmas Carol, Nicholas Nickleby, David Copperfield, A Tale of Two Cities and Great Expectations.
+    On June 9, 1870, Dickens died of a stroke in Kent, England, leaving his final novel, The Mystery of Edwin
+    Drood, unfinished.
+- !ruby/object:Author
+  name: John Donne
+  biography: |-
+    The first two editions of John Donne's poems were published posthumously,
+    in 1633 and 1635, after having circulated widely in manuscript copies. Readers continue to find stimulus
+    in his fusion of witty argument with passion, his dramatic rendering of complex states of mind, and his
+    ability to make common words yield up rich poetic meaning. Donne also wrote songs, sonnets and prose.
+- !ruby/object:Author
+  name: George Eliot
+  biography: |-
+    Novelist George Eliot, a pen name for Mary Ann Evans, was born on
+    November 22, 1819. She was a subeditor for The Westminster Review for three years. In 1851, she met
+    the philosopher George Henry Lewes. Lewes was already married, but she spent the next 20 years of her
+    life with him. She wrote several novels that explored aspects of human psychology, including The Mill
+    on the Floss and Silas Marner. She died in 1880.
+- !ruby/object:Author
+  name: George Orwell
+  biography: |-
+    Born Eric Arthur Blair in Motihari, Bengal, India, in 1903, George
+    Orwell, novelist, essayist and critic, went on to become best known for his novels Animal Farm and
+    Nineteen Eighty-Four.
+- !ruby/object:Author
+  name: Harold Pinter
+  biography: |-
+    Born in London in 1930, Harold Pinter is a renowned playwright and
+    screenwriter. His plays are particularly famous for their use of understatement to convey characters'
+    thoughts and feelings. In 2005, Pinter was awarded the Nobel Prize for Literature.
+- !ruby/object:Author
+  name: Samuel Taylor Coleridge
+  biography: |-
+    Samuel Taylor Coleridge was born on October 21, 1772 in
+    Devon, England. A friend to poet William Wordsworth, Coleridge was a founder of the English Romantic
+    Movement. His best known poems are The Rime of the Ancient Mariner and Kubla Khan, the latter of which
+    was reportedly written under the influence of opium. Coleridge died in 1834.
+- !ruby/object:Author
+  name: Jack Gordon
+  biography: biography
